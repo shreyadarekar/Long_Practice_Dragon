@@ -14,9 +14,9 @@ class Dragon {
 }
 
 
-const puff = new Dragon("Puff", "green");
-const toothless = new Dragon("Toothless", "black");
-console.log(Dragon.getDragons(puff, toothless));
+// const puff = new Dragon("Puff", "green");
+// const toothless = new Dragon("Toothless", "black");
+// console.log(Dragon.getDragons(puff, toothless));
 
 
 

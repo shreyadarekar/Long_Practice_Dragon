@@ -11,7 +11,7 @@ class FriendlyDragon extends Dragon {
         for (let i =0; i< this.lifeGoals.length; i++){
             let lifeGoals = this.lifeGoals[i]
             console.log(`${this.name} likes to ${lifeGoals}`)
-        
+
         }
     }
 
@@ -20,20 +20,20 @@ class FriendlyDragon extends Dragon {
     }
 }
 
-const puff = new FriendlyDragon(
-    "Puff",
-    "green",
-    [
-      "live by the sea",
-      "frolick in the autumn mist",
-      "help small children"
-    ],
-    "Jackie Paper"
-  );
-  console.log(puff);
-  console.log(puff.breathesFire()); //Friendly dragons can still breathe fire!
-  puff.hasLifeGoals();
-  console.log(puff.helpsPeople());
+// const puff = new FriendlyDragon(
+//     "Puff",
+//     "green",
+//     [
+//       "live by the sea",
+//       "frolick in the autumn mist",
+//       "help small children"
+//     ],
+//     "Jackie Paper"
+//   );
+//   console.log(puff);
+//   console.log(puff.breathesFire()); //Friendly dragons can still breathe fire!
+//   puff.hasLifeGoals();
+//   console.log(puff.helpsPeople());
 
 
 
